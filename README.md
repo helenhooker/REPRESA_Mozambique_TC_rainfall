@@ -12,7 +12,7 @@ We will be using **Google Colab** for this training. You do not need to install 
 ### Step 1: Open the Notebook
 Click the badge below to launch the training notebook directly in your browser:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/REPRESA_Mozambique_TC_rainfall/blob/main/notebooks/02_TC_Rainfall_Analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/helenhooker/REPRESA_Mozambique_TC_rainfall/blob/main/Cyclone_rainfall_colab_en.ipynb)
 
 ### Step 2: Enter the Data Key
 The essential rainfall data for this workshop (for Cyclones ANA, FREDDY, etc.) is hosted privately.
