@@ -5,41 +5,90 @@ Training materials for analysing and evaluating Tropical Cyclone rainfall datase
 **Developed by:** Dr Helen Hooker, University of Reading  
 **Project:** REPRESA
 
-## 🚀 How to use these notebooks
+---
+
+## 🚀 How to Use These Notebooks
 
 We will be using **Google Colab** for this training. You do not need to install anything on your computer.
 
+### Before You Start:
+✅ **You need a Google account** (free Gmail account)  
+✅ Log into [Google Drive](https://drive.google.com) before the workshop
+
+---
+
 ### Step 1: Open the Notebook
-Click the badge below to launch the training notebook directly in your browser:
+
+Click the badge below to launch the training notebook:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/helenhooker/REPRESA_Mozambique_TC_rainfall/blob/main/Cyclone_rainfall_colab_en.ipynb)
 
-### Step 2: Enter the Data Key
-The essential rainfall data for this workshop (for Cyclones ANA, FREDDY, etc.) is hosted privately.
-1.  Run the first code cell in the notebook.
-2.  Select the storm you wish to analyze (e.g., `FREDDY`).
-3.  **The instructor will provide a unique File ID key during the session.**
-4.  Paste this key into the box when prompted to download the data.
+### Step 2: Save Your Own Copy
+
+**⚠️ Important:** The notebook opens in **read-only mode**. To edit and save your work:
+
+1. Click **"Copy to Drive"** at the top of the notebook (or File → Save a copy in Drive)
+2. Your personal copy will open automatically
+3. All your changes will auto-save to your Google Drive
+
+**💡 Tip:** Your copy will be saved in Google Drive under "Colab Notebooks" folder
+
+---
+
+### Step 3: Choose a Storm and Download Data
+
+The essential rainfall data for this workshop (Cyclones ANA, FREDDY, etc.) is hosted privately.
+
+1. Run the first 3 code cells in your notebook
+2. Select the storm you wish to analyse (e.g., `FREDDY`)
+3. The data for your chosen storm will download automatically
+
+---
 
 ## 📚 Workshop Content Overview
 
-This workshop focuses on evaluating the **CCAM rainfall dataset** against other commonly used rainfall products including reanalysis (ERA5), satellite rainfall (GPM IMERG), and observed gauge data. Participants will investigate rainfall from four impactful tropical cyclones: **CHEDZA 2015, ANA 2022, GOMBE 2022, and FREDDY 2023.**
+This workshop focuses on evaluating the **CCAM rainfall dataset** against other commonly used rainfall products including:
+- **ERA5** (ECMWF Reanalysis)
+- **GPM IMERG** (Satellite rainfall)
+- **Gauge observations** (Local rain gauges)
 
-###  <span style="color: purple;">Learning Outcomes</span>
+Participants will investigate rainfall from four impactful tropical cyclones:
+- **CHEDZA** (2015)
+- **ANA** (2022)
+- **GOMBE** (2022)
+- **FREDDY** (2023)
 
-*   **Compare** CCAM rainfall to existing rainfall datasets both spatially and over time.
-*   **Investigate** storms, regions, and time periods of interest for rainfall characteristics.
-*   **Develop** data visualization and evaluation skills using Python and Jupyter Notebooks.
-*   **Gain experience** with common atmospheric science data formats (NetCDF) and libraries (Xarray, Pandas, Matplotlib, Cartopy).
+### 🎯 Learning Outcomes
 
-### Data Sources
-*   **CCAM:** Convection-Permitting Climate Model (high-resolution and low-resolution versions)
-*   **ERA5:** ECMWF Reanalysis v5
-*   **IMERG:** Integrated Multi-satellitE Retrievals for GPM
-*   **Gauge Data:** Local rain gauge observations
+By the end of this workshop, you will be able to:
 
-### Case Studies
-*   Cyclone CHEDZA (2015)
-*   Cyclone ANA (2022)
-*   Cyclone GOMBE (2022)
-*   Cyclone FREDDY (2023)
+* **Compare** CCAM rainfall to existing rainfall datasets both spatially and over time
+* **Investigate** storms, regions, and time periods of interest for rainfall characteristics
+* **Develop** data visualization and evaluation skills using Python and Jupyter Notebooks
+* **Gain experience** with atmospheric science data formats (NetCDF) and Python libraries (Xarray, Pandas, Matplotlib, Cartopy)
+
+### 📊 Data Sources
+
+* **CCAM:** Conformal-Cubic Atmospheric Model (high-resolution and low-resolution versions)
+* **ERA5:** ECMWF Reanalysis v5
+* **IMERG:** Integrated Multi-satellitE Retrievals for GPM
+* **Gauge Data:** Local rain gauge observations
+
+---
+
+## 🆘 Troubleshooting
+
+**Problem:** Can't save my changes  
+**Solution:** Make sure you clicked "Copy to Drive" at the top of the notebook
+
+**Problem:** Lost my notebook  
+**Solution:** Check your Google Drive → "Colab Notebooks" folder
+
+**Problem:** Data download fails  
+**Solution:** Re-run the data download cells or contact the instructor
+
+---
+
+## 📧 Contact
+
+Questions? Contact: helen.hooker@reading.ac.uk
